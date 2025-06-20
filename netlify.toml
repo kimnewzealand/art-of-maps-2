@@ -1,0 +1,11 @@
+[build]
+  command = 'jupyter nbconvert presentation.ipynb --to slides"
+  publish = "."
+
+[build.environment]
+  PYTHON_VERSION = "3.10"
+
+[[redirects]]
+  from = "/"
+  to = "/presentation.slides.html"
+  status = 200
