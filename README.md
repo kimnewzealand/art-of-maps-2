@@ -12,4 +12,5 @@ pip install -r requirements.txt
 ```
 jupyter nbconvert presentation.ipynb --to slides
 ```
-[![Netlify Status]()](https://app.netlify.com/sites/artofmaps2/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f66eb174-e098-4201-8d0e-5a857820d598/deploy-status)](https://app.netlify.com/projects/art-of-maps-2/deploys)
