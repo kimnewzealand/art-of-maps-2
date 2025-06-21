@@ -7,10 +7,14 @@ Presentation on Art of Maps Episode 2
 pip install -r requirements.txt
 ```
 
+## Create presentation.ipynb
+
+- Ensure each cell has slide type Slide
+
 ## Build Presentation
 
 ```
-jupyter nbconvert presentation.ipynb --to slides --reveal-prefix="https://unpkg.com/reveal.js@4.0.2" --output
+jupyter nbconvert presentation.ipynb --to slides --SlidesExporter.reveal_theme=solarized
 ```
 
 ## Preview Presentation
