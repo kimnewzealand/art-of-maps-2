@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## Build Presentation
 
 ```
-jupyter nbconvert presentation.ipynb --to slides --SlidesExporter.reveal_theme=solarized
+jupyter nbconvert presentation.ipynb --to slides --SlidesExporter.reveal_theme=solarized --no-input
 ```
 
 ## Preview Presentation
