@@ -1,5 +1,5 @@
 [build]
-  command = "jupyter nbconvert presentation.ipynb --to slides --SlidesExporter.reveal_theme=solarized"
+  command = "jupyter nbconvert presentation.ipynb --to slides --SlidesExporter.reveal_theme=solarized --no-input"
   publish = "."
 
 [build.environment]
